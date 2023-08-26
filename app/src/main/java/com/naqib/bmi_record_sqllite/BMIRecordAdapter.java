@@ -1,5 +1,6 @@
 package com.naqib.bmi_record_sqllite;
 
+import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,8 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 public class BMIRecordAdapter extends RecyclerView.Adapter<BMIRecordAdapter.ViewHolder> {
-
-    private List<BMIRecord> bmiRecordList;
+    List<BMIRecord> bmiRecordList;
 
     public BMIRecordAdapter(List<BMIRecord> bmiRecordList) {
         this.bmiRecordList = bmiRecordList;
@@ -23,6 +23,7 @@ public class BMIRecordAdapter extends RecyclerView.Adapter<BMIRecordAdapter.View
         return new ViewHolder(view);
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         BMIRecord bmiRecord = bmiRecordList.get(position);

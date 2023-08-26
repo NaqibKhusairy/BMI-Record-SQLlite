@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BMI Record"
+        android:text="@string/bmi_record"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,7 +24,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#423F3F"
-        android:text="Calculate and Save"
+        android:text="@string/calculate_and_save"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -37,7 +37,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#433F3F"
-        android:text="View BMI Record"
+        android:text="@string/view_bmi_record"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -50,28 +50,30 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Enter weight (kg)"
+        android:hint="@string/enter_weight_kg"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.164" />
+        app:layout_constraintVertical_bias="0.164"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/etHeight"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Enter height (m)"
+        android:hint="@string/enter_height_m"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.253" />
+        app:layout_constraintVertical_bias="0.253"
+        android:autofillHints="" />
 
     <CalendarView
         android:id="@+id/cvDate"

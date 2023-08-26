@@ -3,4 +3,14 @@
     <string name="todo">TODO</string>
     <string name="bmi_record_nusing_sqlite">BMI RECORD \nUSING SQLITE</string>
     <string name="enter">ENTER</string>
+    <string name="date">Date</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="bmi">BMI</string>
+    <string name="bmi_description">BMI Description</string>
+    <string name="enter_height_m">Enter height (m)</string>
+    <string name="bmi_record">BMI Record</string>
+    <string name="calculate_and_save">Calculate and Save</string>
+    <string name="view_bmi_record">View BMI Record</string>
+    <string name="enter_weight_kg">Enter weight (kg)</string>
 </resources>

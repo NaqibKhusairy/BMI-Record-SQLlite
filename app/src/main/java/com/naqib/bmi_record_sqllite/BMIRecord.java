@@ -1,11 +1,11 @@
 package com.naqib.bmi_record_sqllite;
 
 public class BMIRecord {
-    private String date;
-    private double weight;
-    private double height;
-    private double bmi;
-    private String status;
+    String date;
+    double weight;
+    double height;
+    double bmi;
+    String status;
 
     public BMIRecord(String date, double weight, double height, double bmi, String status) {
         this.date = date;

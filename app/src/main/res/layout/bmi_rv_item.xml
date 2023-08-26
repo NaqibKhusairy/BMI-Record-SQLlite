@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="3dp"
-            android:text="Date"
+            android:text="@string/date"
             android:textColor="@color/black" />
 
         <LinearLayout
@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="3dp"
-                android:text="Weight"
+                android:text="@string/weight"
                 android:textColor="@color/black" />
 
 
@@ -44,7 +44,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="3dp"
-                android:text="Height"
+                android:text="@string/height"
                 android:textColor="@color/black" />
 
         </LinearLayout>
@@ -61,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="3dp"
-                android:text="BMI"
+                android:text="@string/bmi"
                 android:textColor="@color/black" />
 
 
@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="3dp"
-                android:text="BMI Description"
+                android:text="@string/bmi_description"
                 android:textColor="@color/black" />
 
         </LinearLayout>

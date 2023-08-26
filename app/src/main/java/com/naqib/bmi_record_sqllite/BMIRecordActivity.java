@@ -9,10 +9,9 @@ import android.os.Bundle;
 import java.util.List;
 
 public class BMIRecordActivity extends AppCompatActivity {
-
-    private RecyclerView recyclerView;
-    private BMIRecordAdapter adapter;
-    private DBHandler dbHandler;
+    RecyclerView recyclerView;
+    BMIRecordAdapter adapter;
+    DBHandler dbHandler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

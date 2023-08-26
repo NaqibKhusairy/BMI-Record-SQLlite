@@ -42,7 +42,6 @@ public class DBHandler extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    // Method to add a new record to the database
     public List<BMIRecord> getAllBMIRecords() {
         List<BMIRecord> bmiRecordList = new ArrayList<>();
         SQLiteDatabase db = this.getReadableDatabase();
@@ -70,7 +69,6 @@ public class DBHandler extends SQLiteOpenHelper {
         return bmiRecordList;
     }
 
-    // Method to add a new record to the database
     public void addRecord(String date, double weight, double height, double bmi, String status) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
